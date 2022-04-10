@@ -291,3 +291,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 @media (max-width: 480) {
 }
+
+.active {
+background:#f00;
+color: #fff;
+}

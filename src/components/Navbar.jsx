@@ -1,6 +1,7 @@
 import React from "react";
 import logo from '../images/logo.jpeg'
 import close from '../images/close.png'
+import { Link, NavLink } from "react-router-dom";
 export default function Navbar() {
   let sidebar = document.getElementById('box')
   const handleHamburerClick = () => {
@@ -18,11 +19,11 @@ export default function Navbar() {
             </div>
   </div>
          <ul className="sublinks">
-            <li><a href="#">Home</a></li>
-             <li><a href="#">About us</a></li>
-             <li><a href="#">Our Teams</a></li>
-             <li><a href="#">Services</a></li>
-             <li><a href="#">Contact Us</a></li>
+            <li><NavLink activeClassName="active"  to="/">Home</NavLink ></li>
+             <li><NavLink activeClassName="active" to="/about-us">About us</NavLink></li>
+             <li><NavLink activeClassName="active" to="/teams">Our Teams</NavLink></li>
+             <li><NavLink activeClassName="active" to="services">Services</NavLink></li>
+             <li><NavLink activeClassName="active" to="/contact">Contact Us</NavLink></li>
             </ul>
         </nav>
 
@@ -36,11 +37,11 @@ export default function Navbar() {
   <div id="sidebarMenu">
     <ul className="sidebarMenuInner">
       <li>Sumit Pandey <span>Advocate</span></li>
-      <li><a href="https://vanila.io" target="_blank">Home</a></li>
-      <li><a href="https://instagram.com/plavookac" target="_blank">About us</a></li>
-      <li><a href="https://twitter.com/plavookac" target="_blank">Our Teams</a></li>
-      <li><a href="https://www.youtube.com/channel/UCDfZM0IK6RBgud8HYGFXAJg" target="_blank">Services</a></li>
-      <li><a href="https://www.linkedin.com/in/plavookac/" target="_blank">Contact us</a></li>
+      <li><NavLink to="/" >Home</NavLink></li>
+      <li><NavLink  to="/about-us" >About us</NavLink></li>
+      <li><NavLink to="/teams" >Our Teams</NavLink></li>
+      <li><NavLink to="/services">Services</NavLink></li>
+      <li><NavLink to="/contact-us">Contact us</NavLink></li>
     </ul>
   </div>
 

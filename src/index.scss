@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: #4c4c4c;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -125,6 +126,38 @@ code {
   50%,
   100% {
     right: 100%;
+  }
+}
+.about-us {
+  // background: #4c4c4c;
+  height:100vh;
+}
+
+.sumit {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  margin: 0px 30px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  span {
+    word-spacing: 9px;
+    letter-spacing: 1px;
+    max-width: 900px;
+  }
+}
+
+.hero-image {
+  display:flex;
+  justify-content: center;
+  img {
+    margin-top: 30px;
+    border-radius: 128px;
+    width: 191px;
+    height: 191px
   }
 }
 
