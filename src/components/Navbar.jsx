@@ -41,7 +41,7 @@ export default function Navbar() {
       <li><NavLink  to="/about-us" >About us</NavLink></li>
       <li><NavLink to="/teams" >Our Teams</NavLink></li>
       <li><NavLink to="/services">Services</NavLink></li>
-      <li><NavLink to="/contact-us">Contact us</NavLink></li>
+      <li><NavLink to="/contact">Contact us</NavLink></li>
     </ul>
   </div>
 
