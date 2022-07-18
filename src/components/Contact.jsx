@@ -1,5 +1,7 @@
 import React from "react";
 import contact from "../images/contact.jpeg";
+import { Link, NavLink } from "react-router-dom";
+
 export default function Contact() {
     return (
         <>
@@ -38,9 +40,9 @@ export default function Contact() {
       
         <div className="social_media">
             <ul>
-              <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+              <li><a target="_blank" href="https://www.facebook.com/sumitpandey1994"><i className="fab fa-facebook-f"></i></a></li>
               <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+              <li><a target="_blank" href="https://www.instagram.com/sumit6764"><i className="fab fa-instagram"></i></a></li>
           </ul>
       </div>
     </div>
