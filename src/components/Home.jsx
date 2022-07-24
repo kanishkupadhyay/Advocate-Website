@@ -1,11 +1,11 @@
-import React from "react";
+import {React, useState, useEffect} from "react";
 import Typewriter from "typewriter-effect";
 import { Link, NavLink } from "react-router-dom";
 import * as bootstrap from 'bootstrap';
 
 
 export default function Home() {
-// myModal.toggle()
+ 
   return (
     <>
       {/* <Typewriter
@@ -18,6 +18,9 @@ export default function Home() {
             .start();
         }}
       /> */}
+
+
+
       <div className="home-bg-container">
         <div className="home-introduction">
           <h1>We are here to Protect</h1>
